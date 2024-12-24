@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+  text-indent: 20px;
+}
+
+@font-face {
+    font-family: 'TitleFont';
+    src: url('fonts/TitleFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TitleFont2';
+    src: url('fonts/TitleFont2.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MainTextFont';
+    src: url('fonts/MainTextFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto; /* Центрируем контейнер */
+    padding: 20px; /* Внутренние отступы */
+    background-color: #fff;
+}
+.title {
+    font-family: 'TitleFont', Arial, sans-serif; /* Резервные шрифты */
+    font-size: 2rem; /* Размер шрифта */
+    font-weight: normal; /* Жирность текста */
+    color: black; /* Цвет текста */
+    text-align: center; /* Выравнивание текста */
+}
+
+.title-1 {
+    font-family: 'TitleFont2', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.main-text-1 {
+    font-family: 'MainTextFont', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title-2 {
+    font-family: 'TitleFont2', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.main-text-2 {
+    font-family: 'MainTextFont', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.images {
+    display: flex; /* Flexbox */
+    justify-content: space-around;
+    align-items: center; /* Выравнивание по центру */
+    margin-top: 20px;
+}
+
+.image-item {
+    text-align: center; /* Текст центрируется под изображением */
+    max-width: 45%; /* Ограничение ширины */
+}
+
+.image-item img {
+    max-width: 100%; /* Картинка не выходит за пределы */
+    height: auto; /* Пропорции */
+    border-radius: 8px; /* Скругление */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+.image-item p {
+    font-family: 'MainTextFont', Arial, sans-serif;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: black;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between; /* Распределение элементов */
+    align-items: flex-start
+}
+
+.text-section {
+    flex: 1;
+    max-width: 60%;
+    margin-top: 150px;
+}
+
+.text-section h2 {
+    font-family: 'TitleFont2', Arial, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.text-section p {
+    font-family: 'MainTextFont', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.image-section {
+    flex: 0 0 40%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.image-section img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
