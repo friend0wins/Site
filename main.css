@@ -32,12 +32,54 @@ p {
     padding: 20px; /* Внутренние отступы */
     background-color: #fff;
 }
+
+.auth-form {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 167px;
+}
+
+.auth-input {
+    font-family: 'MainTextFont', Arial, sans-serif;
+    width: 180px;
+    margin: 5px 0;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.auth-button {
+    font-family: 'MainTextFont', Arial, sans-serif;
+    width: 180px;
+    padding: 8px;
+    margin: 5px 0;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #000; /* Черный цвет для кнопок */
+    color: white;
+    cursor: pointer;
+}
+
+.auth-button:hover {
+    background-color: #333; /* Для эффекта наведения */
+}
+
 .title {
     font-family: 'TitleFont', Arial, sans-serif; /* Резервные шрифты */
     font-size: 2rem; /* Размер шрифта */
     font-weight: normal; /* Жирность текста */
     color: black; /* Цвет текста */
     text-align: center; /* Выравнивание текста */
+    margin-top: 20px; /* Отступ сверху для начала страницы */
 }
 
 .title-1 {
